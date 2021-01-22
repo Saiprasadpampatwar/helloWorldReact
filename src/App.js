@@ -3,18 +3,12 @@ import './App.css';
 import React from "react";
 
 class App extends React.Component{
-  constructor() {
-    super();
-    this.state = {
-      title: "HelloWorld Demo App  from Sai !!"
-    };
-  }
-  render() {
-    return (
-      <div>
-        <h1>{this.state.title}</h1>
+  render(){
+    return(
+      <div class="App">
+        <h1>Hello from Sai</h1>
       </div>
-    );
+    )
   }
 }
 
